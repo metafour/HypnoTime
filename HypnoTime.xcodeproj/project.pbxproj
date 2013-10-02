@@ -27,6 +27,10 @@
 		01FD85CE17FB7D000000EAF7 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85CA17FB7D000000EAF7 /* Hypno@2x.png */; };
 		01FD85CF17FB7D000000EAF7 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85CB17FB7D000000EAF7 /* Time.png */; };
 		01FD85D017FB7D000000EAF7 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85CC17FB7D000000EAF7 /* Time@2x.png */; };
+		01FD85D617FCC7310000EAF7 /* HypnoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD85D517FCC7310000EAF7 /* HypnoMapViewController.m */; };
+		01FD85D817FCC7FB0000EAF7 /* HypnoMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85D717FCC7FB0000EAF7 /* HypnoMapViewController.xib */; };
+		01FD85DA17FCCBE90000EAF7 /* Map Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */; };
+		01FD85DD17FCD3510000EAF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD85DB17FCD1F40000EAF7 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,11 @@
 		01FD85CA17FB7D000000EAF7 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 		01FD85CB17FB7D000000EAF7 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
 		01FD85CC17FB7D000000EAF7 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
+		01FD85D417FCC7310000EAF7 /* HypnoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnoMapViewController.h; sourceTree = "<group>"; };
+		01FD85D517FCC7310000EAF7 /* HypnoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnoMapViewController.m; sourceTree = "<group>"; };
+		01FD85D717FCC7FB0000EAF7 /* HypnoMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HypnoMapViewController.xib; sourceTree = "<group>"; };
+		01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Icon@2x.png"; sourceTree = "<group>"; };
+		01FD85DB17FCD1F40000EAF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FD85DD17FCD3510000EAF7 /* MapKit.framework in Frameworks */,
 				01CC464517F9EFEF00325009 /* CoreGraphics.framework in Frameworks */,
 				01CC464717F9EFEF00325009 /* UIKit.framework in Frameworks */,
 				01CC464317F9EFEF00325009 /* Foundation.framework in Frameworks */,
@@ -115,6 +125,7 @@
 		01CC464117F9EFEF00325009 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01FD85DB17FCD1F40000EAF7 /* MapKit.framework */,
 				01CC464217F9EFEF00325009 /* Foundation.framework */,
 				01CC464417F9EFEF00325009 /* CoreGraphics.framework */,
 				01CC464617F9EFEF00325009 /* UIKit.framework */,
@@ -126,6 +137,9 @@
 		01CC464817F9EFEF00325009 /* HypnoTime */ = {
 			isa = PBXGroup;
 			children = (
+				01FD85D417FCC7310000EAF7 /* HypnoMapViewController.h */,
+				01FD85D517FCC7310000EAF7 /* HypnoMapViewController.m */,
+				01FD85D717FCC7FB0000EAF7 /* HypnoMapViewController.xib */,
 				01CC467717FA031000325009 /* HypnosisView.h */,
 				01CC467817FA031000325009 /* HypnosisView.m */,
 				01CC467117FA025000325009 /* HypnosisViewController.h */,
@@ -140,6 +154,7 @@
 				01FD85CA17FB7D000000EAF7 /* Hypno@2x.png */,
 				01FD85CB17FB7D000000EAF7 /* Time.png */,
 				01FD85CC17FB7D000000EAF7 /* Time@2x.png */,
+				01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */,
 				01CC464917F9EFEF00325009 /* Supporting Files */,
 			);
 			path = HypnoTime;
@@ -256,6 +271,8 @@
 				01F4B8DF17FA0A380064248A /* TimeViewController.xib in Resources */,
 				01FD85CD17FB7D000000EAF7 /* Hypno.png in Resources */,
 				01FD85CE17FB7D000000EAF7 /* Hypno@2x.png in Resources */,
+				01FD85D817FCC7FB0000EAF7 /* HypnoMapViewController.xib in Resources */,
+				01FD85DA17FCCBE90000EAF7 /* Map Icon@2x.png in Resources */,
 				01CC465517F9EFEF00325009 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +294,7 @@
 			files = (
 				01CC467317FA025000325009 /* HypnosisViewController.m in Sources */,
 				01CC467917FA031000325009 /* HypnosisView.m in Sources */,
+				01FD85D617FCC7310000EAF7 /* HypnoMapViewController.m in Sources */,
 				01CC464F17F9EFEF00325009 /* main.m in Sources */,
 				01CC465317F9EFEF00325009 /* HypnoAppDelegate.m in Sources */,
 				01F4B8DD17FA09630064248A /* TimeViewController.m in Sources */,

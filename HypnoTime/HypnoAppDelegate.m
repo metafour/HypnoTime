@@ -9,6 +9,7 @@
 #import "HypnoAppDelegate.h"
 #import "HypnosisViewController.h"
 #import "TimeViewController.h"
+#import "HypnoMapViewController.h"
 
 @implementation HypnoAppDelegate
 
@@ -16,19 +17,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Create view controllers to add to UITabBar
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     TimeViewController *tvc = [[TimeViewController alloc] init];
+    HypnoMapViewController *hmvc = [[HypnoMapViewController alloc] init];
     
+    // Create UITabBarController
     UITabBarController *tbc = [[UITabBarController alloc] init];
     
-    NSArray *tabControllers = [[NSArray alloc] initWithObjects:hvc, tvc, nil];
+    // Create array for controllers to add to tab bar
+    NSArray *tabControllers = [[NSArray alloc] initWithObjects:hvc, tvc, hmvc,  nil];
     
     // Access tabBarItem properties of tabControllers
-    for (UIViewController *vc in tabControllers) {
+//    for (UIViewController *vc in tabControllers) {
 //        NSLog(@"View Controller: %@", [vc title]);
 //        [[vc tabBarItem] setTitle:[vc title]];
-    }
+//    }
     
+    // Add array of contollers to tab bar
     [tbc setViewControllers:tabControllers];
     
     [[self window] setRootViewController:tbc];
