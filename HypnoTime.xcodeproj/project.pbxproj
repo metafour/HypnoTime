@@ -31,6 +31,7 @@
 		01FD85D817FCC7FB0000EAF7 /* HypnoMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85D717FCC7FB0000EAF7 /* HypnoMapViewController.xib */; };
 		01FD85DA17FCCBE90000EAF7 /* Map Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */; };
 		01FD85DD17FCD3510000EAF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FD85DB17FCD1F40000EAF7 /* MapKit.framework */; };
+		01FD85DF17FCEB0B0000EAF7 /* White Pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FD85DE17FCEB0B0000EAF7 /* White Pixel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		01FD85D717FCC7FB0000EAF7 /* HypnoMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HypnoMapViewController.xib; sourceTree = "<group>"; };
 		01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map Icon@2x.png"; sourceTree = "<group>"; };
 		01FD85DB17FCD1F40000EAF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		01FD85DE17FCEB0B0000EAF7 /* White Pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Pixel.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				01FD85CB17FB7D000000EAF7 /* Time.png */,
 				01FD85CC17FB7D000000EAF7 /* Time@2x.png */,
 				01FD85D917FCCBE90000EAF7 /* Map Icon@2x.png */,
+				01FD85DE17FCEB0B0000EAF7 /* White Pixel.png */,
 				01CC464917F9EFEF00325009 /* Supporting Files */,
 			);
 			path = HypnoTime;
@@ -270,6 +273,7 @@
 				01CC464D17F9EFEF00325009 /* InfoPlist.strings in Resources */,
 				01F4B8DF17FA0A380064248A /* TimeViewController.xib in Resources */,
 				01FD85CD17FB7D000000EAF7 /* Hypno.png in Resources */,
+				01FD85DF17FCEB0B0000EAF7 /* White Pixel.png in Resources */,
 				01FD85CE17FB7D000000EAF7 /* Hypno@2x.png in Resources */,
 				01FD85D817FCC7FB0000EAF7 /* HypnoMapViewController.xib in Resources */,
 				01FD85DA17FCCBE90000EAF7 /* Map Icon@2x.png in Resources */,

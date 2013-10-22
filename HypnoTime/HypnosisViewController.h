@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HypnosisView.h"
 
 @interface HypnosisViewController : UIViewController
+
+@property (nonatomic) HypnosisView *view;
+@property (nonatomic) UISegmentedControl *colorControl;
 
 @end
